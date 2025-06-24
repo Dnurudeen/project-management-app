@@ -21,6 +21,14 @@
 - Breeze (Auth)
 - MySQL
 
+## Architecture & Design Decisions
+- MVC Pattern: Keeps controllers light and logic encapsulated in models and policies.
+- Breeze: For simple and extendable auth scaffolding.
+- Policies: Used for authorizing actions on projects and tasks.
+- AJAX + Blade: Tasks can be edited inline without full page reloads.
+- Component-based Views: Blade partials used for cleaner and reusable UI components.
+- RESTful Routing: Clean route organization using resource controllers.
+
 ## Optional
 - Tests
 - API routes
